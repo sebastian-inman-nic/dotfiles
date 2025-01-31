@@ -1,0 +1,12 @@
+# Navigation aliases
+alias ~="cd ~"
+alias ..="cd .."
+
+# General aliases
+alias ls="eza"
+
+# Docker aliases
+alias dc="docker-compose"
+
+# Git aliases
+alias g="git"

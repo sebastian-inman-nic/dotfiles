@@ -1,0 +1,13 @@
+# Larger bash history (allow 32³ entries; default is 500)
+export HISTSIZE=32768
+export HISTFILESIZE=$HISTSIZE
+export HISTCONTROL=ignoredups
+
+# --- Node ---
+
+export NVM_DIR="$HOME/.nvm"
+
+# --- Privacy ---
+
+export DOCKER_SCAN_SUGGEST=false
+export FUNCTIONS_CORE_TOOLS_TELEMETRY_OPTOUT=true
