@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/jng/.oh-my-zsh
+export ZSH=/Users/sebastian/.oh-my-zsh
 
 # Hide username in prompt
 DEFAULT_USER="sebastian"
@@ -29,6 +29,8 @@ fpath=( "$HOME/.zfunctions" $fpath )
 
 # Make prompt like pure prompt
 SPACESHIP_CHAR_SYMBOL="❯"
+SPACESHIP_CHAR_SYMBOL_SUCCESS="❯"
+SPACESHIP_CHAR_SYMBOL_FAILURE="❯"
 SPACESHIP_CHAR_SUFFIX=" "
 SPACESHIP_PACKAGE_SHOW="false"
 SPACESHIP_DIR_COLOR="blue"
@@ -39,8 +41,6 @@ SPACESHIP_GIT_PREFIX=""
 # remove git symbol
 SPACESHIP_GIT_BRANCH_PREFIX=""
 
-SPACESHIP_GIT_BRANCH_COLOR="black"
-SPACESHIP_GIT_STATUS_COLOR="black"
 SPACESHIP_GIT_STATUS_PREFIX=" ["
 SPACESHIP_GIT_STATUS_SUFFIX="]"
 

@@ -10,3 +10,5 @@ alias dc="docker-compose"
 
 # Git aliases
 alias g="git"
+
+alias src="source ~/.bash_profile"
